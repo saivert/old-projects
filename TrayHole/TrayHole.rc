@@ -1,0 +1,189 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "xp.manifest"
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TOOLBAR             BITMAP  DISCARDABLE     "toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+AboutDlg DIALOG DISCARDABLE  0, 0, 186, 82
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,68,61,50,14
+    CTEXT           "TrayHole version 1.0",IDC_STATIC,5,15,175,8
+    CTEXT           "Written by Saivert",IDC_STATIC,5,35,175,8
+    LTEXT           "About",IDC_STATIC,82,1,20,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,105,5,75,1
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,5,5,74,1
+    CTEXT           "Access to Tray Icons without Windows Taskbar.",
+                    IDC_STATIC,5,25,175,8
+    LTEXT           "http://members.tripod.com/files_saivert/",IDC_LINK,29,
+                    45,128,8,SS_NOTIFY | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    "AboutDlg", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+ConfigMenu MENU DISCARDABLE 
+BEGIN
+    POPUP "Configuration"
+    BEGIN
+        MENUITEM "Large icons",                 ID_LARGE_ICONS
+        MENUITEM "Show menu",                   ID_SHOW_MENU
+        MENUITEM "Show toolbar",                ID_SHOW_TOOLBAR
+        MENUITEM "Show tooltips (toolbar only)", ID_SHOW_TOOLTIPS
+        MENUITEM "Always on &top",              ID_ALWAYSONTOP
+    END
+    MENUITEM "&About",                      ID_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TIP_CONFIG          "Configure TrayHole"
+    IDS_TIP_ABOUT           "About this application"
+    IDS_TIP_EXIT            "Close TrayHole"
+    IDS_APPTITLE            "Tray Hole"
+    IDS_ERROR_TBTIP         "Error creating CNxSToolTip class for toolbar!"
+    IDS_ERROR_TOOLTIP       "Error creating CNxSToolTip class!"
+    IDS_NOTIMPL             "Not implemented!"
+    IDS_ERROR_BALLOON       "Error creating CNxSToolTip object for balloon popups!"
+    IDS_TIP_AOT             "Always on top"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Norwegian (Bokmal) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NOR)
+#ifdef _WIN32
+LANGUAGE LANG_NORWEGIAN, SUBLANG_NORWEGIAN_BOKMAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAINICON            ICON    DISCARDABLE     "icon1.ico"
+#endif    // Norwegian (Bokmal) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
