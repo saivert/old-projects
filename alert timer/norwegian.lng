@@ -1,0 +1,39 @@
+[LanguageFile]
+Author=Saivert
+Homepage=http://members.tripod.com/files_saivert/
+EMail=saivert@email.com
+LangCode=1044
+LangName=Norsk
+
+[MainForm]
+AlertTimeGroupBox=Varslingstid
+NowBtn=Nå
+AlertMsgGroupBox=Varslingsbeskjed
+RunAppGroupBox=Kjør program (la stå tom hvis ikke ønskelig)
+DispMsgLabel=Vis melding ved:
+AboutBtn=&Om...
+StartBtn=&Start
+ParamsLabel=Parametre:
+
+[QuickSelections]
+Item0=Om 5 minutter
+Item1=Om 10 minutter
+Item2=Om et kvarter
+Item3=Om 10 sekunder
+Item4=En time senere
+Item5=I morgen til samme tid
+Item6=Egendefinert tid
+
+[MessageTypes]
+Item0=Meldingsboks
+Item1=Snakkeboble
+
+[Strings]
+SAppTitleFmt=%s - Varslingsur
+SAppTitle=Varslingsur
+STimerTriggered=Tiden har utløpt
+SStart=&Start
+SStop=Sto&pp
+SShow=&Vis
+SHide=&Skjul
+SExit=&Avslutt

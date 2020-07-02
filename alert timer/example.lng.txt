@@ -1,0 +1,67 @@
+; This is an example language file that is to be used as the
+; basis for a new translation. It is not used by Alert Timer.
+; The english strings are built into the Alert Timer application.
+[LanguageFile]
+; Language files are automatically found and loaded
+; by Alert timer. The language file that is used depends
+; on the language of the Windows installation.
+; If you have a Greek version of Windows and Alert Timer
+; finds a language file with the LangCode of 1032, then
+; this language file will be used. The actual filename of
+; the language file is not significant, but it is a good
+; habit to name it properly such as greek.lng.
+; If no appropriate language file is found then English is
+; used by default.
+
+; You don't have to write anything here, it is not required.
+; But if you like to advertise for yourself, then this is a
+; good place to do so.
+Author=saivert
+Homepage=
+EMail=
+
+; This is mandatory! Please use the included MakeLangID.exe tool
+; to create a language code. Be sure to select SUBLANG_DEFAULT
+; in the second combo box of the tool's dialog.
+LangCode=1033
+; Following is the name of the language in the language itself:
+LangName=English
+
+; Here you do the translation
+[MainForm]
+AlertTimeGroupBox=Alert time
+NowBtn=&Now
+AlertMsgGroupBox=Alert message
+RunAppGroupBox=Run application (leave empty if not desired)
+DispMsgLabel=Show message using:
+AboutBtn=&About...
+StartBtn=&Start
+ParamsLabel=Parameters:
+
+; These are the items you can choose in the combo box
+[QuickSelections]
+; Do not alter order of these strings.
+; Only translate what is after the equal sign (=)
+; in each line.
+Item0=In 5 minutes
+Item1=In 10 mins.
+Item2=In a quarter (15 mins.)
+Item3=In Ten seconds
+Item4=An hour later
+Item5=Tomorrow at same time
+Item6=Custom time
+
+[MessageTypes]
+Item0=Messagebox
+Item1=Balloon
+
+; General strings used to display messages and what so ever.
+[Strings]
+SAppTitleFmt=%s - Alert Timer
+SAppTitle=Alert Timer
+STimerTriggered=Timer has elapsed
+SStart=&Start
+SStop=Sto&p
+SShow=&Show
+SHide=&Hide
+SExit=&Exit
