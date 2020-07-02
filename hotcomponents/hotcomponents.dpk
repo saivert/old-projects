@@ -1,0 +1,44 @@
+package hotcomponents;
+
+{$R *.res}
+{$R 'Hotcomponents.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Hot Components for Delphi'}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  vcljpg;
+
+contains
+  HotLabel in 'HotLabel.pas',
+  XPAbout in 'XPAbout.pas' {XPAboutForm},
+  HotRegister in 'HotRegister.pas',
+  frmLicbox in 'frmLicbox.pas' {LicForm},
+  NxSTray in 'NxSTray.pas',
+  NxSBrowseFolderDlg in 'NxSBrowseFolderDlg.pas',
+  NxSFormResizeGrid in 'NxSFormResizeGrid.pas',
+  dllgetversion in 'dllgetversion.pas';
+
+end.
